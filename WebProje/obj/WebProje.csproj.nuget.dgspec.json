@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Han Bayraktar\\Desktop\\WebProje\\WebProje\\WebProje.csproj": {}
+    "D:\\veriYapilari\\odev1-24\\WebProje-devi\\WebProje\\WebProje.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Han Bayraktar\\Desktop\\WebProje\\WebProje\\WebProje.csproj": {
+    "D:\\veriYapilari\\odev1-24\\WebProje-devi\\WebProje\\WebProje.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Han Bayraktar\\Desktop\\WebProje\\WebProje\\WebProje.csproj",
+        "projectUniqueName": "D:\\veriYapilari\\odev1-24\\WebProje-devi\\WebProje\\WebProje.csproj",
         "projectName": "WebProje",
-        "projectPath": "C:\\Users\\Han Bayraktar\\Desktop\\WebProje\\WebProje\\WebProje.csproj",
-        "packagesPath": "C:\\Users\\Han Bayraktar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Han Bayraktar\\Desktop\\WebProje\\WebProje\\obj\\",
+        "projectPath": "D:\\veriYapilari\\odev1-24\\WebProje-devi\\WebProje\\WebProje.csproj",
+        "packagesPath": "C:\\Users\\berat\\.nuget\\packages\\",
+        "outputPath": "D:\\veriYapilari\\odev1-24\\WebProje-devi\\WebProje\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Han Bayraktar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\berat\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,7 +26,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -46,6 +49,18 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[9.0.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
